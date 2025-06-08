@@ -1,0 +1,31 @@
+# Dependencias
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Entorno
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+
+# Directorios de sistema
+.DS_Store
+Thumbs.db
+
+# Directorios de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Directorios de cobertura
+coverage/
+
+# Directorios de build
+dist/
+build/ 
