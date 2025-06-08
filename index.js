@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 
 // Configuración de CORS para permitir solicitudes desde el frontend
 app.use(cors({
-  origin: 'http://localhost:3001',
+  origin: ['http://localhost:3001', 'https://toolboxfront.vercel.app'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
